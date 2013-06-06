@@ -1,0 +1,33 @@
+
+.header {
+
+    background-color: $soundtweet-red;
+    border: 1px solid $soundtweet-red;
+    box-shadow: 0 0 5px 1px #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    h1 {
+        color: $soundtweet-white;
+        font-family: arial;
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .header-logo {
+        height: 72px;
+        width: 338px;
+
+        background:{
+            image: url('../images/logo.png');
+            repeat: no-repeat;
+            position: 50% 50%;
+        }
+    }
+}
+
+.container {
+    margin: 0 auto 0 auto;
+    width: 960px;
+    padding: 10px;
+}

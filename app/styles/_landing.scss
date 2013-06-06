@@ -1,0 +1,45 @@
+
+.recorder {
+    width: 400px;
+    display: inline-block;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.record-button {
+
+    height: 271px;
+    width: 271px;
+    margin: auto;
+    background:{
+        image: url('../images/record-button.png');
+        repeat: no-repeat;
+        position: 50% 50%;
+    }
+
+    .label {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        top: 35%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+
+.twitfeed {
+    margin-top: 50px;
+    width: 450px;
+    display: inline-block;
+    float: right;
+}
